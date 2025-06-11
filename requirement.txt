@@ -12,3 +12,4 @@ faiss-cpu
 langchain-community
 PyPDF2
 requirements.txt
+langchain_community
