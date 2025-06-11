@@ -11,4 +11,3 @@ tiktoken
 faiss-cpu
 langchain-community
 PyPDF2
-requirements.txt
