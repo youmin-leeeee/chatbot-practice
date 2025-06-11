@@ -5,7 +5,7 @@ st. set_page_config(page_title="Pregunta lo que quieres") #페이지 이름 설�
 st.title("Pregunta lo que quieres, estoy aqui para ayudarte") #페이지 메인 텍스트 설정
 
 import os
-os. environ["OPENAI_API_KEY"] = st.secret["OPENAI_API_KEY"]
+os. environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 def generate_response(input_text):
     llm = ChatOpenAI(temperature=0, model_name='gpt-4') #창의성 0
